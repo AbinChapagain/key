@@ -37,7 +37,7 @@ local w = ui:NewWindow('speed',250,200)
 
 local m = w:NewMenu('speed')
 local t = m:NewToggle('toggle speed')
-local s = m:NewSlider('speed amount',1,1000,5)
+local s = m:NewSlider('speed amount',1,10000,5)
 
 t:SetTooltip("toggles speedhacks")
 s:SetTooltip("speedhack speed")
